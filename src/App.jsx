@@ -1,5 +1,3 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { useState, useEffect }  from 'react';
 import './App.css';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
@@ -12,7 +10,7 @@ import {
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY ="YOUR_API_KEY_HERE"
+const API_KEY ="sk-proj-wNF9F1HbUx5xfEAcbQ8eT3BlbkFJPvYEbmE0QRlq5dD2I8Hd"
 
 const App = () => {
   const [messages, setMessages] = useState([
@@ -100,5 +98,3 @@ const App = () => {
 }
 
 export default App;
-
-
